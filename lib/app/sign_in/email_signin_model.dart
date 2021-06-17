@@ -51,10 +51,10 @@ class EmailSignInModel with EmailAndPasswordValidator {
   }) {
     return EmailSignInModel(
       email: email ?? this.email,
-      password: email ?? this.password,
-      formType: email ?? this.formType,
-      isLoading: email ?? this.isLoading,
-      submitted: email ?? this.submitted,
+      password: password ?? this.password,
+      formType: formType ?? this.formType,
+      isLoading: isLoading ?? this.isLoading,
+      submitted: submitted ?? this.submitted,
     );
   }
 }

@@ -1,10 +1,11 @@
 import 'dart:async';
 
+import 'package:flutter/cupertino.dart';
 import 'package:time_tracker_flutter_course/app/sign_in/email_signin_model.dart';
 import 'package:time_tracker_flutter_course/services/Auth.dart';
 
 class EmailSignInBloc {
-  EmailSignInBloc({this.auth});
+  EmailSignInBloc({ @required this.auth});
 
   final AuthBase auth;
   StreamController<EmailSignInModel> _modelController = StreamController<EmailSignInModel>();
@@ -24,7 +25,7 @@ class EmailSignInBloc {
     bool isLoading,
     bool submitted,
   }) {
-    _model.copyWith(
+   _model= _model.copyWith(
       email: email,
       password: password,
       formType: formType,

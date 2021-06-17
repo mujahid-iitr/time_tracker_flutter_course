@@ -4,11 +4,12 @@ import 'package:provider/provider.dart';
 import 'package:time_tracker_flutter_course/app/common_widget/form_submit_button.dart';
 import 'package:time_tracker_flutter_course/app/common_widget/show_exception_alert_dialog.dart';
 import 'package:time_tracker_flutter_course/app/sign_in/email_sign_in_bloc.dart';
+import 'package:time_tracker_flutter_course/services/Auth.dart';
 
 import 'StringValidator.dart';
 import 'email_signin_model.dart';
 
-class EmailSignInFormBlocBased extends StatefulWidget with EmailAndPasswordValidator {
+class EmailSignInFormBlocBased extends StatefulWidget  {
   EmailSignInFormBlocBased({
     this.bloc,
   });
@@ -16,7 +17,7 @@ class EmailSignInFormBlocBased extends StatefulWidget with EmailAndPasswordValid
   final EmailSignInBloc bloc;
 
   static Widget create(BuildContext context) {
-    final auth = Provider.of(context, listen: false);
+    final auth = Provider.of<AuthBase>(context, listen: false);
     return Provider<EmailSignInBloc>(
       create: (_) => EmailSignInBloc(auth: auth),
       child: Consumer<EmailSignInBloc>(
@@ -101,7 +102,7 @@ class _EmailSignInFormBlocBasedState extends State<EmailSignInFormBlocBased> {
       obscureText: true,
       textInputAction: TextInputAction.done,
       onEditingComplete: _submit,
-      onChanged: (password) => widget.bloc.updatePassword,
+      onChanged:  widget.bloc.updatePassword,
     );
   }
 
@@ -119,7 +120,7 @@ class _EmailSignInFormBlocBasedState extends State<EmailSignInFormBlocBased> {
       keyboardType: TextInputType.emailAddress,
       textInputAction: TextInputAction.next,
       onEditingComplete: () => _emailEditingCommplete(model),
-      onChanged: (email) => widget.bloc.updateEmail,
+      onChanged:  widget.bloc.updateEmail,
     );
   }
 
@@ -143,7 +144,7 @@ class _EmailSignInFormBlocBasedState extends State<EmailSignInFormBlocBased> {
   }
 
   void _emailEditingCommplete(EmailSignInModel model) {
-    final newFocus = widget.emailValidator.isValid(model.email) ? _passwordFocusNode : _emailFocusNode;
+    final newFocus = model.emailValidator.isValid(model.email) ? _passwordFocusNode : _emailFocusNode;
     FocusScope.of(context).requestFocus(newFocus);
   }
 }
