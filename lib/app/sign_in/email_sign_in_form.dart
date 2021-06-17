@@ -6,11 +6,9 @@ import 'package:time_tracker_flutter_course/app/common_widget/show_exception_ale
 import 'package:time_tracker_flutter_course/services/Auth.dart';
 
 import 'StringValidator.dart';
+import 'email_signin_model.dart';
 
-enum EmailSignInFormType {
-  signIn,
-  register,
-}
+
 
 class EmailSignInForm extends StatefulWidget with EmailAndPasswordValidator {
   @override
