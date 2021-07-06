@@ -12,6 +12,7 @@ class SignInBloc {
 
   Stream<bool> get isLoadingStream => _isLoadingController.stream;
 
+
   void dispose() {
     _isLoadingController.close();
   }

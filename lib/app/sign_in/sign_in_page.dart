@@ -25,37 +25,6 @@ class SignInPage extends StatelessWidget {
     );
   }
 
-  Future<void> _signInAnonymously(BuildContext context) async {
-    try {
-      await bloc.signInAnonymously();
-    } on Exception catch (e) {
-      showSignInError(context, e);
-    }
-  }
-
-  Future<void> _signInWithGoogle(BuildContext context) async {
-    try {
-      await bloc.signInWithGoogle();
-    } on Exception catch (e) {
-      showSignInError(context, e);
-    }
-  }
-
-  Future<void> _signInWithFacebook(BuildContext context) async {
-    try {
-      await bloc.signInWithFacebook();
-    } on Exception catch (e) {
-      showSignInError(context, e);
-    }
-  }
-
-  void _signInWithEmail(BuildContext context) {
-    Navigator.of(context).push(MaterialPageRoute<void>(
-      fullscreenDialog: true,
-      builder: (context) => EmailSignInPage(),
-    ));
-  }
-
   @override
   Widget build(BuildContext context) {
     final bloc = Provider.of<SignInBloc>(context, listen: false);
@@ -140,17 +109,6 @@ class SignInPage extends StatelessWidget {
     );
   }
 
-  void buttonPressed() {
-    print('Button presed');
-  }
-
-  void showSignInError(BuildContext context, Exception exception) {
-    if (exception is FirebaseAuthException && exception.code == 'ERROR_ABORTED_BY_USER') {
-      return;
-    }
-    showExceptionAlertDialog(context, title: 'Signin fail', exception: exception);
-  }
-
   Widget _buildHeader(bool isLoading) {
     if (isLoading) {
       return Center(
@@ -165,5 +123,44 @@ class SignInPage extends StatelessWidget {
         fontWeight: FontWeight.w600,
       ),
     );
+  }
+
+  Future<void> _signInAnonymously(BuildContext context) async {
+    try {
+      await bloc.signInAnonymously();
+    } on Exception catch (e) {
+      showSignInError(context, e);
+    }
+  }
+
+  Future<void> _signInWithGoogle(BuildContext context) async {
+    try {
+      await bloc.signInWithGoogle();
+    } on Exception catch (e) {
+      showSignInError(context, e);
+    }
+  }
+
+  Future<void> _signInWithFacebook(BuildContext context) async {
+    try {
+      await bloc.signInWithFacebook();
+    } on Exception catch (e) {
+      showSignInError(context, e);
+    }
+  }
+
+
+
+  void _signInWithEmail(BuildContext context) {
+    Navigator.of(context).push(MaterialPageRoute<void>(
+      fullscreenDialog: true,
+      builder: (context) => EmailSignInPage(),
+    ));
+  }
+  void showSignInError(BuildContext context, Exception exception) {
+    if (exception is FirebaseAuthException && exception.code == 'ERROR_ABORTED_BY_USER') {
+      return;
+    }
+    showExceptionAlertDialog(context, title: 'Signin fail', exception: exception);
   }
 }
