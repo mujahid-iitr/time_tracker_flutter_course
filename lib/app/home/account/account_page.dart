@@ -1,23 +1,17 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:time_tracker_flutter_course/app/common_widget/show_alert_dialog.dart';
 import 'package:time_tracker_flutter_course/services/Auth.dart';
 
-class HomePage extends StatelessWidget {
-  Future<void> _signOut(BuildContext context) async {
-    try {
-      final auth = Provider.of<AuthBase>(context, listen: false);
-      await auth.signOut();
-    } catch (e) {
-      print(e.toString());
-    }
-  }
+class AccountPage extends StatelessWidget {
+  const AccountPage({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Page"),
+        title: Text("Account"),
         actions: [
           FlatButton(
             child: Text(
@@ -32,6 +26,15 @@ class HomePage extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  Future<void> _signOut(BuildContext context) async {
+    try {
+      final auth = Provider.of<AuthBase>(context, listen: false);
+      await auth.signOut();
+    } catch (e) {
+      print(e.toString());
+    }
   }
 
   Future _confirmSignOut(BuildContext context) async {

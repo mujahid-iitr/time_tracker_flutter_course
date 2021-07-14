@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:time_tracker_flutter_course/app/common_widget/form_submit_button.dart';
 import 'package:time_tracker_flutter_course/app/common_widget/show_exception_alert_dialog.dart';
+import 'package:time_tracker_flutter_course/app/sign_in/StringValidator.dart';
+import 'package:time_tracker_flutter_course/app/sign_in/email_signin_model.dart';
 import 'package:time_tracker_flutter_course/services/Auth.dart';
 
-import 'StringValidator.dart';
-import 'email_signin_model.dart';
+
 
 
 

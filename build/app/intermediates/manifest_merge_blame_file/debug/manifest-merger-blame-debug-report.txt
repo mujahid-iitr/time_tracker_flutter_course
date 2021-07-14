@@ -14,395 +14,409 @@
 14    <uses-permission android:name="android.permission.INTERNET" />
 14-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:9:5-66
 14-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:9:22-64
-15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
-15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
-16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:25:5-68
-16-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:25:22-65
-17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-17-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
-17-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
-18
-19    <application
-19-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:11:5-69:19
-20        android:name="io.flutter.app.FlutterApplication"
-20-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:12:9-57
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\b608c3d8537f54a7ed8ad86b3bfe3664\core-1.1.0\AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-23-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:14:9-43
-24        android:label="time_tracker_flutter_course"
-24-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:13:9-52
-25        android:supportsRtl="true" >
-25-->[com.facebook.android:facebook-login:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d96c98f8d3fbaeb160f9b364ae87f53d\facebook-login-8.1.0\AndroidManifest.xml:28:18-44
-26        <activity
-26-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:15:9-43:20
-27            android:name="com.codingwithflutter.time_tracker_flutter_course.MainActivity"
-27-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:16:13-41
-28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-28-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:19:13-163
-29            android:hardwareAccelerated="true"
-29-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:20:13-47
-30            android:launchMode="singleTop"
-30-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:17:13-43
-31            android:theme="@style/LaunchTheme"
-31-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:18:13-47
-32            android:windowSoftInputMode="adjustResize" >
-32-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:21:13-55
-33
-34            <!--
-35                 Specifies an Android theme to apply to this Activity as soon as
-36                 the Android process has started. This theme is visible to the user
-37                 while the Flutter UI initializes. After that, this theme continues
-38                 to determine the Window background behind the Flutter UI.
-39            -->
-40            <meta-data
-40-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:26:13-29:17
-41                android:name="io.flutter.embedding.android.NormalTheme"
-41-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:27:15-70
-42                android:resource="@style/NormalTheme" />
-42-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:28:15-52
-43            <!--
-44                 Displays an Android View that continues showing the launch screen
-45                 Drawable until Flutter paints its first frame, then this splash
-46                 screen fades out. A splash screen is useful to avoid any visual
-47                 gap between the end of Android's launch screen and the painting of
-48                 Flutter's first frame.
-49            -->
-50            <meta-data
-50-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:35:13-38:17
-51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-51-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:36:15-79
-52                android:resource="@drawable/launch_background" />
-52-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:37:15-61
-53
-54            <intent-filter>
-54-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:39:13-42:29
-55                <action android:name="android.intent.action.MAIN" />
-55-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:40:17-68
-55-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:40:25-66
-56
-57                <category android:name="android.intent.category.LAUNCHER" />
-57-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:41:17-76
-57-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:41:27-74
-58            </intent-filter>
-59        </activity>
-60
-61        <meta-data
-61-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:45:9-46:54
-62            android:name="com.facebook.sdk.ApplicationId"
-62-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:45:20-65
-63            android:value="@string/facebook_app_id" />
-63-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:46:13-52
-64
-65        <activity
-65-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:48:9-51:48
-66            android:name="com.facebook.FacebookActivity"
-66-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:48:19-63
-67            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-67-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:49:13-113
-68            android:label="@string/app_name"
-68-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:51:13-45
-69            android:theme="@style/com_facebook_activity_theme" />
-69-->[com.facebook.android:facebook-common:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fdd0388ce787189a46ef6a9d62304d7c\facebook-common-8.1.0\AndroidManifest.xml:33:13-63
-70        <activity
-70-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:52:9-61:20
-71            android:name="com.facebook.CustomTabActivity"
-71-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:53:13-58
-72            android:exported="true" >
-72-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:54:13-36
-73            <intent-filter>
-73-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:55:13-60:29
-74                <action android:name="android.intent.action.VIEW" />
-74-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:17-69
-74-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:25-66
-75
-76                <category android:name="android.intent.category.DEFAULT" />
-76-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
-76-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
-77                <category android:name="android.intent.category.BROWSABLE" />
-77-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:17-78
-77-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:27-75
-78
-79                <data android:scheme="@string/fb_login_protocol_scheme" />
-79-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:17-75
-79-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:23-72
-80            </intent-filter>
-81            <intent-filter>
-81-->[com.facebook.android:facebook-common:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fdd0388ce787189a46ef6a9d62304d7c\facebook-common-8.1.0\AndroidManifest.xml:39:13-48:29
-82                <action android:name="android.intent.action.VIEW" />
-82-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:17-69
-82-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:25-66
-83
-84                <category android:name="android.intent.category.DEFAULT" />
-84-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
-84-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
-85                <category android:name="android.intent.category.BROWSABLE" />
-85-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:17-78
-85-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:27-75
-86
-87                <data
-87-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:17-75
-88                    android:host="cct.com.codingwithflutter.time_tracker_flutter_course"
-89                    android:scheme="fbconnect" />
-89-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:23-72
-90            </intent-filter>
-91        </activity>
-92
-93        <!--
-94             Don't delete the meta-data below.
-95             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-96        -->
-97        <meta-data
-97-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:66:9-68:33
-98            android:name="flutterEmbedding"
-98-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:67:13-44
-99            android:value="2" />
-99-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:68:13-30
-100
-101        <service
-101-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-102            android:name="com.google.firebase.components.ComponentDiscoveryService"
-102-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-103            android:directBootAware="true"
-103-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\a3c1cc6ec970f68401cce2fc99a970df\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-104            android:exported="false" >
-104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
-105            <meta-data
-105-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-106-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-108            <meta-data
-108-->[:firebase_core] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-109-->[:firebase_core] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
-110                android:value="com.google.firebase.components.ComponentRegistrar" />
-110-->[:firebase_core] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-111            <meta-data
-111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-112                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-113                android:value="com.google.firebase.components.ComponentRegistrar" />
-113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-114            <meta-data
-114-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d434dfdc140f605f38843f2deaf9095e\play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
-115                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-115-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d434dfdc140f605f38843f2deaf9095e\play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
-116                android:value="com.google.firebase.components.ComponentRegistrar" />
-116-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d434dfdc140f605f38843f2deaf9095e\play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
-117            <meta-data
-117-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\491c25761983ffe2996e84460ae8f979\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
-118                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-118-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\491c25761983ffe2996e84460ae8f979\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
-119                android:value="com.google.firebase.components.ComponentRegistrar" />
-119-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\491c25761983ffe2996e84460ae8f979\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
-120        </service>
-121
-122        <activity
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-123            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-124            android:excludeFromRecents="true"
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-125            android:exported="true"
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-126            android:launchMode="singleTask"
-126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-127            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-128            <intent-filter>
-128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-129                <action android:name="android.intent.action.VIEW" />
-129-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:17-69
-129-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:25-66
-130
-131                <category android:name="android.intent.category.DEFAULT" />
-131-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
-131-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
-132                <category android:name="android.intent.category.BROWSABLE" />
-132-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:17-78
-132-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:27-75
-133
-134                <data
-134-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:17-75
-135                    android:host="firebase.auth"
-136                    android:path="/"
-137                    android:scheme="genericidp" />
-137-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:23-72
-138            </intent-filter>
-139        </activity>
-140        <activity
-140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-141            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-142            android:excludeFromRecents="true"
-142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-143            android:exported="true"
-143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-144            android:launchMode="singleTask"
-144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-145            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-146            <intent-filter>
-146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-147                <action android:name="android.intent.action.VIEW" />
-147-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:17-69
-147-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:25-66
-148
-149                <category android:name="android.intent.category.DEFAULT" />
-149-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
-149-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
-150                <category android:name="android.intent.category.BROWSABLE" />
-150-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:17-78
-150-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:27-75
-151
-152                <data
-152-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:17-75
-153                    android:host="firebase.auth"
-154                    android:path="/"
-155                    android:scheme="recaptcha" />
-155-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:23-72
-156            </intent-filter>
-157        </activity>
-158
-159        <service
-159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-160            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-161            android:enabled="true"
-161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-162            android:exported="false" >
-162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-163            <intent-filter>
-163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-164                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\c384d7b01ccf025fc7f0e5d156867240\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-165
-166                <category android:name="android.intent.category.DEFAULT" />
-166-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
-166-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
-167            </intent-filter>
-168        </service>
-169
-170        <activity android:name="com.facebook.CustomTabMainActivity" />
-170-->[com.facebook.android:facebook-common:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fdd0388ce787189a46ef6a9d62304d7c\facebook-common-8.1.0\AndroidManifest.xml:34:9-71
-170-->[com.facebook.android:facebook-common:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fdd0388ce787189a46ef6a9d62304d7c\facebook-common-8.1.0\AndroidManifest.xml:34:19-68
-171        <activity
-171-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
-172            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-172-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
-173            android:excludeFromRecents="true"
-173-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
-174            android:exported="false"
-174-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
-175            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-175-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
-176        <!--
-177            Service handling Google Sign-In user revocation. For apps that do not integrate with
-178            Google Sign-In, this service will never be started.
-179        -->
-180        <service
-180-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
-181            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-181-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
-182            android:exported="true"
-182-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
-183            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-183-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\4fbd0185421a7b8b25f8baa8b20e7854\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
-184
-185        <activity
-185-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fe53dd02fea6f00fc0146f74a725f819\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-186            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-186-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fe53dd02fea6f00fc0146f74a725f819\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-187            android:exported="false"
-187-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fe53dd02fea6f00fc0146f74a725f819\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-188            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-188-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fe53dd02fea6f00fc0146f74a725f819\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-189
-190        <receiver
-190-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
-191            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-191-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
-192            android:enabled="true"
-192-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
-193            android:exported="false" >
-193-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
-194        </receiver>
-195
-196        <service
-196-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
-197            android:name="com.google.android.gms.measurement.AppMeasurementService"
-197-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
-198            android:enabled="true"
-198-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
-199            android:exported="false" />
-199-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
-200        <service
-200-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
-201            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-201-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
-202            android:enabled="true"
-202-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
-203            android:exported="false"
-203-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
-204            android:permission="android.permission.BIND_JOB_SERVICE" />
-204-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
-205
-206        <provider
-206-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\a3c1cc6ec970f68401cce2fc99a970df\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-207            android:name="com.google.firebase.provider.FirebaseInitProvider"
-207-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\a3c1cc6ec970f68401cce2fc99a970df\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-208            android:authorities="com.codingwithflutter.time_tracker_flutter_course.firebaseinitprovider"
-208-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\a3c1cc6ec970f68401cce2fc99a970df\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-209            android:directBootAware="true"
-209-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\a3c1cc6ec970f68401cce2fc99a970df\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-210            android:exported="false"
-210-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\a3c1cc6ec970f68401cce2fc99a970df\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-211            android:initOrder="100" />
-211-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\a3c1cc6ec970f68401cce2fc99a970df\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-212
-213        <meta-data
-213-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d8a0e14941e16b3c2140a8c9e3f4230a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-214            android:name="com.google.android.gms.version"
-214-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d8a0e14941e16b3c2140a8c9e3f4230a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-215            android:value="@integer/google_play_services_version" />
-215-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d8a0e14941e16b3c2140a8c9e3f4230a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-216        <!--
-217         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-218         with the application context. This config is merged in with the host app's manifest,
-219         but there can only be one provider with the same authority activated at any given
-220         point; so if the end user has two or more different apps that use Facebook SDK, only the
-221         first one will be able to use the provider. To work around this problem, we use the
-222         following placeholder in the authority to identify each host application as if it was
-223         a completely different provider.
-224        -->
-225        <provider
-225-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:39:9-42:40
-226            android:name="com.facebook.internal.FacebookInitProvider"
-226-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:40:13-70
-227            android:authorities="com.codingwithflutter.time_tracker_flutter_course.FacebookInitProvider"
-227-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:41:13-72
-228            android:exported="false" />
-228-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:42:13-37
-229
-230        <receiver
-230-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:44:9-50:20
-231            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-231-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:45:13-86
-232            android:exported="false" >
-232-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:46:13-37
-233            <intent-filter>
-233-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:47:13-49:29
-234                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-234-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:48:17-95
-234-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\dc9d6701ef2042205b904e5ba969c550\jetified-facebook-core-8.1.0\AndroidManifest.xml:48:25-92
-235            </intent-filter>
-236        </receiver>
-237    </application>
-238
-239</manifest>
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\b4247519c7cc0834bb1821390e05fa60\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\b4247519c7cc0834bb1821390e05fa60\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:25:5-68
+18-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:11:5-69:19
+22        android:name="io.flutter.app.FlutterApplication"
+22-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:12:9-57
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\b608c3d8537f54a7ed8ad86b3bfe3664\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:14:9-43
+26        android:label="time_tracker_flutter_course"
+26-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:13:9-52
+27        android:supportsRtl="true" >
+27-->[com.facebook.android:facebook-login:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d96c98f8d3fbaeb160f9b364ae87f53d\facebook-login-8.1.0\AndroidManifest.xml:28:18-44
+28        <activity
+28-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:15:9-43:20
+29            android:name="com.codingwithflutter.time_tracker_flutter_course.MainActivity"
+29-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:16:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:19:13-163
+31            android:hardwareAccelerated="true"
+31-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:20:13-47
+32            android:launchMode="singleTop"
+32-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:17:13-43
+33            android:theme="@style/LaunchTheme"
+33-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:18:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:21:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:26:13-29:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:27:15-70
+44                android:resource="@style/NormalTheme" />
+44-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:28:15-52
+45            <!--
+46                 Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+52-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:35:13-38:17
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+53-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:36:15-79
+54                android:resource="@drawable/launch_background" />
+54-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:37:15-61
+55
+56            <intent-filter>
+56-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:39:13-42:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:40:17-68
+57-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:40:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:41:17-76
+59-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:41:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <meta-data
+63-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:45:9-46:54
+64            android:name="com.facebook.sdk.ApplicationId"
+64-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:45:20-65
+65            android:value="@string/facebook_app_id" />
+65-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:46:13-52
+66
+67        <activity
+67-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:48:9-51:48
+68            android:name="com.facebook.FacebookActivity"
+68-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:48:19-63
+69            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+69-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:49:13-113
+70            android:label="@string/app_name"
+70-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:51:13-45
+71            android:theme="@style/com_facebook_activity_theme" />
+71-->[com.facebook.android:facebook-common:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fdd0388ce787189a46ef6a9d62304d7c\facebook-common-8.1.0\AndroidManifest.xml:33:13-63
+72        <activity
+72-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:52:9-61:20
+73            android:name="com.facebook.CustomTabActivity"
+73-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:53:13-58
+74            android:exported="true" >
+74-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:54:13-36
+75            <intent-filter>
+75-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:55:13-60:29
+76                <action android:name="android.intent.action.VIEW" />
+76-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:17-69
+76-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:25-66
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
+78-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
+79                <category android:name="android.intent.category.BROWSABLE" />
+79-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:17-78
+79-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:27-75
+80
+81                <data android:scheme="@string/fb_login_protocol_scheme" />
+81-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:17-75
+81-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:23-72
+82            </intent-filter>
+83            <intent-filter>
+83-->[com.facebook.android:facebook-common:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fdd0388ce787189a46ef6a9d62304d7c\facebook-common-8.1.0\AndroidManifest.xml:39:13-48:29
+84                <action android:name="android.intent.action.VIEW" />
+84-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:17-69
+84-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
+86-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:17-78
+87-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:27-75
+88
+89                <data
+89-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:17-75
+90                    android:host="cct.com.codingwithflutter.time_tracker_flutter_course"
+91                    android:scheme="fbconnect" />
+91-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:23-72
+92            </intent-filter>
+93        </activity>
+94
+95        <!--
+96             Don't delete the meta-data below.
+97             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+98        -->
+99        <meta-data
+99-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:66:9-68:33
+100            android:name="flutterEmbedding"
+100-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:67:13-44
+101            android:value="2" />
+101-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:68:13-30
+102
+103        <service
+103-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\3277d19806d36b89449bcc0e4f235cc1\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\b4247519c7cc0834bb1821390e05fa60\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:19:13-37
+107            <meta-data
+107-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+108-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_auth] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+110            <meta-data
+110-->[:cloud_firestore] E:\Flutter\Presentation\time_tracker_flutter_course\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+111                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+111-->[:cloud_firestore] E:\Flutter\Presentation\time_tracker_flutter_course\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[:cloud_firestore] E:\Flutter\Presentation\time_tracker_flutter_course\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+113            <meta-data
+113-->[:firebase_core] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+114-->[:firebase_core] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_core] E:\Flutter\Presentation\time_tracker_flutter_course\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\b4247519c7cc0834bb1821390e05fa60\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:20:13-22:85
+117                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+117-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\b4247519c7cc0834bb1821390e05fa60\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:21:17-111
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\b4247519c7cc0834bb1821390e05fa60\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:22:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+120                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+122            <meta-data
+122-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d434dfdc140f605f38843f2deaf9095e\play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+123                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+123-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d434dfdc140f605f38843f2deaf9095e\play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\d434dfdc140f605f38843f2deaf9095e\play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\491c25761983ffe2996e84460ae8f979\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+126                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+126-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\491c25761983ffe2996e84460ae8f979\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\491c25761983ffe2996e84460ae8f979\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+128        </service>
+129
+130        <activity
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+131            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+132            android:excludeFromRecents="true"
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+133            android:exported="true"
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+134            android:launchMode="singleTask"
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+136            <intent-filter>
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:17-69
+137-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
+139-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:17-78
+140-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:27-75
+141
+142                <data
+142-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:17-75
+143                    android:host="firebase.auth"
+144                    android:path="/"
+145                    android:scheme="genericidp" />
+145-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:23-72
+146            </intent-filter>
+147        </activity>
+148        <activity
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+149            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+150            android:excludeFromRecents="true"
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+151            android:exported="true"
+151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+152            android:launchMode="singleTask"
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+153-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+154            <intent-filter>
+154-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+155                <action android:name="android.intent.action.VIEW" />
+155-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:17-69
+155-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:56:25-66
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
+157-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
+158                <category android:name="android.intent.category.BROWSABLE" />
+158-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:17-78
+158-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:58:27-75
+159
+160                <data
+160-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:17-75
+161                    android:host="firebase.auth"
+162                    android:path="/"
+163                    android:scheme="recaptcha" />
+163-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:59:23-72
+164            </intent-filter>
+165        </activity>
+166
+167        <service
+167-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+168            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+168-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+169            android:enabled="true"
+169-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+170            android:exported="false" >
+170-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+171            <intent-filter>
+171-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+172                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+172-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+172-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\cfb59d6080934958134b4e6207662f91\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+173
+174                <category android:name="android.intent.category.DEFAULT" />
+174-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:17-76
+174-->E:\Flutter\Presentation\time_tracker_flutter_course\android\app\src\main\AndroidManifest.xml:57:27-73
+175            </intent-filter>
+176        </service>
+177
+178        <activity android:name="com.facebook.CustomTabMainActivity" />
+178-->[com.facebook.android:facebook-common:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fdd0388ce787189a46ef6a9d62304d7c\facebook-common-8.1.0\AndroidManifest.xml:34:9-71
+178-->[com.facebook.android:facebook-common:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fdd0388ce787189a46ef6a9d62304d7c\facebook-common-8.1.0\AndroidManifest.xml:34:19-68
+179        <activity
+179-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+180            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+180-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+181            android:excludeFromRecents="true"
+181-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+184        <!--
+185            Service handling Google Sign-In user revocation. For apps that do not integrate with
+186            Google Sign-In, this service will never be started.
+187        -->
+188        <service
+188-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+189            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+189-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+190            android:exported="true"
+190-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+191            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+191-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\6f3a13b21ca302071fa6afc710275b69\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+192
+193        <activity
+193-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fe53dd02fea6f00fc0146f74a725f819\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+194            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+194-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fe53dd02fea6f00fc0146f74a725f819\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fe53dd02fea6f00fc0146f74a725f819\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+196-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\fe53dd02fea6f00fc0146f74a725f819\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+197
+198        <receiver
+198-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+199            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+199-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+200            android:enabled="true"
+200-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+201            android:exported="false" >
+201-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+202        </receiver>
+203
+204        <service
+204-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+205            android:name="com.google.android.gms.measurement.AppMeasurementService"
+205-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+206            android:enabled="true"
+206-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+207            android:exported="false" />
+207-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+208        <service
+208-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+209            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+209-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+210            android:enabled="true"
+210-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+212            android:permission="android.permission.BIND_JOB_SERVICE" />
+212-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\0748dbc1fc715adbc38ee18402a881d0\play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+213
+214        <provider
+214-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\3277d19806d36b89449bcc0e4f235cc1\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\3277d19806d36b89449bcc0e4f235cc1\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+216            android:authorities="com.codingwithflutter.time_tracker_flutter_course.firebaseinitprovider"
+216-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\3277d19806d36b89449bcc0e4f235cc1\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\3277d19806d36b89449bcc0e4f235cc1\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+218            android:exported="false"
+218-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\3277d19806d36b89449bcc0e4f235cc1\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+219            android:initOrder="100" />
+219-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\3277d19806d36b89449bcc0e4f235cc1\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+220
+221        <meta-data
+221-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\75e14c3a04f35612f507761a861c7d5b\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+222            android:name="com.google.android.gms.version"
+222-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\75e14c3a04f35612f507761a861c7d5b\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+223            android:value="@integer/google_play_services_version" />
+223-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\75e14c3a04f35612f507761a861c7d5b\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+224        <!--
+225         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+226         with the application context. This config is merged in with the host app's manifest,
+227         but there can only be one provider with the same authority activated at any given
+228         point; so if the end user has two or more different apps that use Facebook SDK, only the
+229         first one will be able to use the provider. To work around this problem, we use the
+230         following placeholder in the authority to identify each host application as if it was
+231         a completely different provider.
+232        -->
+233        <provider
+233-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:39:9-42:40
+234            android:name="com.facebook.internal.FacebookInitProvider"
+234-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:40:13-70
+235            android:authorities="com.codingwithflutter.time_tracker_flutter_course.FacebookInitProvider"
+235-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:41:13-72
+236            android:exported="false" />
+236-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:42:13-37
+237
+238        <receiver
+238-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:44:9-50:20
+239            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+239-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:45:13-86
+240            android:exported="false" >
+240-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:46:13-37
+241            <intent-filter>
+241-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:47:13-49:29
+242                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+242-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:48:17-95
+242-->[com.facebook.android:facebook-core:8.1.0] C:\Users\Mohd Mujahida\.gradle\caches\transforms-2\files-2.1\616143717d66874cc8fd70b7072e5aa8\jetified-facebook-core-8.1.0\AndroidManifest.xml:48:25-92
+243            </intent-filter>
+244        </receiver>
+245    </application>
+246
+247</manifest>
