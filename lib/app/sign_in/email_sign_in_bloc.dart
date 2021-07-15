@@ -1,21 +1,23 @@
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
+import 'package:rxdart/rxdart.dart';
 import 'package:time_tracker_flutter_course/app/sign_in/email_signin_model.dart';
 import 'package:time_tracker_flutter_course/services/Auth.dart';
 
 class EmailSignInBloc {
-  EmailSignInBloc({ @required this.auth});
+  EmailSignInBloc({@required this.auth});
 
   final AuthBase auth;
-  StreamController<EmailSignInModel> _modelController = StreamController<EmailSignInModel>();
 
-  Stream<EmailSignInModel> get modelStream => _modelController.stream;
+  final _modelSubject = BehaviorSubject<EmailSignInModel>.seeded(EmailSignInModel());
 
-  EmailSignInModel _model = EmailSignInModel();
+  Stream<EmailSignInModel> get modelStream => _modelSubject.stream;
+
+  EmailSignInModel get _model => _modelSubject.value;
 
   void dispose() {
-    _modelController.close();
+    _modelSubject.close();
   }
 
   void updateWith({
@@ -25,29 +27,28 @@ class EmailSignInBloc {
     bool isLoading,
     bool submitted,
   }) {
-   _model= _model.copyWith(
+    _modelSubject.value = _model.copyWith(
       email: email,
       password: password,
       formType: formType,
       isLoading: isLoading,
       submitted: submitted,
     );
-    _modelController.add(_model);
   }
+
   void toggleFormType() {
-    final formType=_model.formType == EmailSignInFormType.signIn ? EmailSignInFormType.register : EmailSignInFormType.signIn;
+    final formType = _model.formType == EmailSignInFormType.signIn ? EmailSignInFormType.register : EmailSignInFormType.signIn;
     updateWith(
       email: '',
       password: '',
       isLoading: false,
       submitted: false,
-      formType:formType ,
+      formType: formType,
     );
-
   }
 
-
   void updateEmail(String email) => updateWith(email: email);
+
   void updatePassword(String password) => updateWith(password: password);
 
   Future<void> submit() async {
